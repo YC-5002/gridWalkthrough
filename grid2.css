@@ -1,0 +1,22 @@
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6,100px);
+    grid-gap: 8px;
+}
+
+.red{
+    background-color: lightcoral;
+}
+
+.blue{
+    background-color: lightblue;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+.purple{
+    background-color: lightpink;
+}
